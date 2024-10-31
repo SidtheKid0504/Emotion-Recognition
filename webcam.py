@@ -3,8 +3,8 @@ import cv2
 
 rekognition = boto3.client(
   'rekognition',
-  aws_access_key_id="AKIAQJZTZLVAWHL33WOG",
-  aws_secret_access_key="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",
+  aws_access_key_id="ACCESS_KEY",
+  aws_secret_access_key="SECRET_KEY",
   region_name="us-east-1"
 )  
 
